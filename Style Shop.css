@@ -1,0 +1,157 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.baris {
+    display: flex;
+    align-items: stretch;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.baris > div {
+    margin: 10px;
+}
+
+.headerShop {
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    flex-basis: 700px;
+    font-weight: 300;
+    color: #000000;
+    cursor: pointer;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    flex-basis: 340px;
+    padding: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+input {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 900;
+    width: 200px;
+    height: 30px;    
+    text-align: center;
+    border: none;
+    color: #E7F0F2;
+}
+
+.search {
+    border: none;
+    font-size: 20px
+    ;background-color: transparent;
+    cursor: pointer;
+}
+
+.troli{
+    cursor: pointer;
+}
+
+.containerShop {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.containerShop > div {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.containerShop a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #000000;
+}
+
+.category {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500;
+    flex-basis: 100px;
+    align-self: flex-end;
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 55px;
+    border-left: 1px solid #E7F0F2;
+    color: #000000;
+    cursor: pointer;
+}
+
+.titleCategory {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 730px;
+}
+  
+.titleCategory > div {
+    flex-grow: 1;
+    width: 155px;
+    height: 116px;
+    margin: 15px;
+    background-color: rgba(231, 240, 242, 0.3);
+    backdrop-filter: blur(6px);
+}
+
+.subTitle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.subCategory {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.filter {
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 500;
+    flex-basis: 60px;
+    align-self: flex-start;
+    text-align: right;
+    line-height: 35px;
+    padding-right: 20px;
+    padding-left: 55px;
+    border-right: 1px solid #E7F0F2;
+    color: #000000;
+    cursor: pointer;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1em;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: -15px;
+    color: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+  
+.page a.active {
+    font-weight: bolder;
+    color: #000000;
+    background-color: transparent;
+}
